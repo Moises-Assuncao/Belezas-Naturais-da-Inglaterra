@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belezas Naturais da Inglaterra</title>
     <link rel="stylesheet" href="/css/Belezas-Naturais-da-Inglaterra.css">
 </head>
 <body>
