@@ -39,7 +39,7 @@ footer {
     padding: 10px;
     background-color: #092268;
     color: white;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -98,7 +98,7 @@ footer {
     font-weight: bold;
     cursor: pointer;
 }
-#botaofooter {
+.botaofooter {
     background-color: #c22f3b;
     color: white;
     padding: 10px 20px;
@@ -119,10 +119,11 @@ footer {
 
 }
 .highlight {
-    border: 5px solid #c22f3b;
-    box-shadow: 0 0 15px #c22f3b(255, 223, 0, 0.8);
-    transform: scale(1.1);
-  }
+  border: 5px solid #c22f3b;  /* borda vermelha */
+  box-shadow: 0 0 15px rgba(194, 47, 59, 0.8); /* brilho vermelho */
+  transform: scale(1.05); /* leve zoom */
+  transition: all 0.9s ease; /* animação suave */
+}
 
 .profile-info {
     width: 1000px;
@@ -195,7 +196,7 @@ footer {
 iframe {
     border: none; /* Remove bordas, opcional */
 }
-.BOTA0 {
+.BOTAO {
     background-color: #c22f3b;
     color: white;
     padding: 10px 20px;
@@ -206,4 +207,12 @@ iframe {
 .MAPA {
     text-align: center;
     justify-content: center;
+}
+
+.borda_Azul {
+    border: 3px solid #092268;
+}
+
+.BotaoDestaque {
+    text-align: center;
 }

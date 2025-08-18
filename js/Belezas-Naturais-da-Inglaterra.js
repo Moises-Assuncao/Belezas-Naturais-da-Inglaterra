@@ -42,13 +42,17 @@ window.addEventListener('scroll', () => {
 backToTop.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-  // Seleciona o botão e todas as imagens
-  const button = document.getElementById('highlight-btn');
-  const images = document.querySelectorAll('.gallery');
+// Mensagem de teste para ver se o JS carregou
+console.log("✅ JS carregado e funcionando!");
 
-  // Adiciona o evento de clique ao botão
-  button.addEventListener('click', () => {
-    images.forEach(img => {
-      img.classList.toggle('highlight'); // Alterna a classe 'highlight'
-    });
+// Seleciona o botão e todas as imagens da galeria
+const button = document.getElementById("highlight-btn");
+const images = document.querySelectorAll(".gallery");
+
+// Adiciona o evento de clique no botão
+button.addEventListener("click", () => {
+  images.forEach(img => {
+    img.classList.toggle("highlight"); // alterna a classe highlight
   });
+});
+
