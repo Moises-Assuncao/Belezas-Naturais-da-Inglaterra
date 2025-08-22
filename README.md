@@ -68,5 +68,4 @@ Este site visa:
 
 ### Aprecie o espetáculo da Inglaterra com estilo e inspiração – um design simples com grande impacto.
 
-### Você gostaria que eu adaptasse esse README com detalhes personalizados sobre as atrações (como nomes de lugares ou descrições mais específicas)? É só me avisar!
 
