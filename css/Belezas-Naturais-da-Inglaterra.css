@@ -133,6 +133,7 @@ footer {
     margin-bottom: 100px;
     background: #092268;
     text-align: center;
+    margin: 0 auto;
   }
 
 #ordem {
@@ -215,4 +216,5 @@ iframe {
 
 .BotaoDestaque {
     text-align: center;
+    margin-top: 50px;
 }
